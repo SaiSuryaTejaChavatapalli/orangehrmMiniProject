@@ -1,0 +1,6 @@
+Changed naming conventions and gave meaningful names
+removed unneccesary import statements
+implented try and catch blocks
+previously implicit wait was depricated ,now it is changed to working state
+chnaged keydown dropdowns
+some times we have to wait for screenshot then instead of "Thread.sleep(2000)",we use selenium functionality "action.pause(Duration.ofSeconds(2)).build().perform();"
